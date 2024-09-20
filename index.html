@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet">
+    <title>kanvas/main</title>
+</head>
+
+<body>
+    <header>
+        <div class="top">
+            <img alt="logo" src="img/logo.png">
+            <ul class="menu">
+                <li><a href="#">Галерея</a></li>
+                <li><a href="#">Про нас</a></li>
+                <li><button class="tel">Замовити дзвінок</button></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <div class="molbert">
+            <input type="file" id="file" class="file">
+            <label for="file" class="art"></label>
+        </div>
+        <div class="priceZone">
+            <div class="priceForm">
+                <h2 class="priceh2">Виберіть розмір</h2>
+                <div class="fpart">
+                    <input type="radio" name="size" id="size1" class="size size1">
+                    <label for="size1">30x30</label>
+
+                    <input type="radio" name="size" id="size2" class="size size2">
+                    <label for="size2">30x90</label>
+
+                    <input type="radio" name="size" id="size3" class="size size3">
+                    <label for="size3">90x120</label>
+
+                    <input type="radio" name="size" id="size4" class="size size4">
+                    <label for="size4">90x150</label>
+                    <button>Задати розмір</button>
+                </div>
+                <div class="spart">
+                    <input class="text text1" type="text">
+                    <span class="tx">ширина</span>
+                    <p class="x">x</p>
+                    <input class="text text2" type="text">
+                    <span class="txv">висота</span>
+                    <button class="calc">Підрахувати</button>
+                </div>
+                <hr>
+                <h2 class="addh2">Додаткові опції</h2>
+                <div class="add">
+                    <div class="fadd">
+                        <p>
+                            <input type="checkbox" id="expensive" name="expensive" class="checkbox">
+                            <label for="expensive">дорожче полотно</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="border" name="border" class="checkbox">
+                            <label for="border">з рамкою</label>
+                        </p>
+                        <p>
+                            <input type="checkbox" id="delivery" name="delivery" class="checkbox">
+                            <label for="delivery">з доставкою (Нова Пошта)</label>
+                        </p>
+                    </div>
+
+                    <div class="sadd">
+                        <p>+35 грн</p>
+                        <p>+10 грн</p>
+                        <p>+40 грн</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="empty"></div>
+                <div class="buy">
+                    <a class="pridbatu" href="#">Придбати</a>
+                    <p class="all">Загальна сума:<strong class="price"></strong><span class="uah">грн</span></p>
+                </div>
+            </div>
+        </div>
+        </div>
+    </main>
+    <div class="buyform">
+        <div class="buymenu">
+            <h1>Check out</h1>
+            <div class="info">
+                <div class="el">
+                    <p class="paint">Картина <span class="sizeP"></span></p>
+                    <p class="polotno">дорожче полотно</p>
+                    <p class="ramka">з рамкою</p>
+                    <p class="novaP">з доставкою (Нова Пошта)</p>
+                </div>
+                <div class="elpr">
+                    <p class="paintPrice"></p>
+                    <p class="polotnoPrice">35 грн</p>
+                    <p class="ramkaPrice">10 грн</p>
+                    <p class="novaPrice">40 грн</p>
+                </div>
+            </div>
+            <input type="text" placeholder="Фамілія">
+
+            <input type="text" placeholder="Ім'я">
+
+            <input type="text" placeholder="Номер телефону">
+
+            <input type="text" class="nova" placeholder="Місто">
+
+            <input type="text" class="nova2" placeholder="Номер відділення">
+
+            <div class="butform">
+                <a class="pid" href="index.html">підтвердити</a>
+                <a class="skas" href="index.html">скасувати</a>
+            </div>
+        </div>
+    </div>
+    <div class="buyfform">
+        <div class="buymenu">
+            <h1>Замовити дзвінок</h1>
+            <input type="text" placeholder="Ім'я">
+
+            <input type="text" placeholder="Номер телефону">
+            <div class="butform">
+                <a class="pid" href="index.html">підтвердити</a>
+                <a class="skas" href="index.html">скасувати</a>
+            </div>
+        </div>
+    </div>
+    <footer>&copy; Kanvas. Всі права захищені</footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
