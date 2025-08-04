@@ -31,7 +31,7 @@ hr {
     text-decoration: none;
     margin-right: 50px;
     color: #4c7792;
-    transition: all 1s ease;
+    transition: all 1s ease; 
 }
 
 .menu a:hover {
@@ -100,7 +100,7 @@ main {
     width: 759px;
     padding: 50px 30px;
     border: 1px solid white;
-    filter: drop-shadow(0 0 5px rgba(0,0,0,0.05));
+    filter: drop-shadow(0 0 5px rgba(0, 0, 0, 0.05));
     border-radius: 10px;
 }
 
@@ -136,7 +136,7 @@ main {
 .spart {
     padding-left: 9px;
     display: flex;
-    align-items: center;    
+    align-items: center;
 }
 
 
@@ -357,41 +357,41 @@ label {
     text-align: right;
 }
 
-.paint{
+.paint {
     display: none;
     color: #757575;
 }
 
-.polotno{
-    display: none;
-    color: #757575;
-    font-size: small;
-}
-
-.ramka{
+.polotno {
     display: none;
     color: #757575;
     font-size: small;
 }
 
-.novaP{
+.ramka {
     display: none;
     color: #757575;
     font-size: small;
 }
 
-.paintPrice{
+.novaP {
+    display: none;
+    color: #757575;
+    font-size: small;
+}
+
+.paintPrice {
     display: none;
     color: #56c107;
 }
 
-.polotnoPrice{
+.polotnoPrice {
     display: none;
     color: #56c107;
     font-size: small;
 }
 
-.ramkaPrice{
+.ramkaPrice {
     display: none;
     color: #56c107;
     font-size: small;
@@ -406,7 +406,7 @@ label {
 .sizeP {
     color: #56c107;
 }
-    
+
 .form {
     display: flex;
 }
